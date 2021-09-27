@@ -1,424 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-5G7MB2W');
-    </script>
-    <!-- End Google Tag Manager -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164057256-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-164057256-1');
-    </script>
-    <title></title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="_heDxqP-IOHSxwBvOVbZddy09apDVX_XDG8jtqMTJqA" />
-    <meta name="description" content="Gadget Ghana online shopping is the best ever online shopping mall in Ghana, phones, laptops , hardwares &amp;accessories , order &amp; enjoy cash on delivery.">
-    <meta content="Gadget Ghana, Online shopping in Ghana, Gadget Ghana in Ghana,Shop Online for family in Ghana, Affordatoble price, trending computer devices,brand new laptops &amp; accessiores, Phones, laptops, computers , hard drives, top brand , best categories, iphones , ipads, Apple, samsung &amp; Andriod." name="keywords">
-    <meta name="robots" content="INDEX,FOLLOW" />
-    <meta name="google" content="notranslate">
-    <meta name="og:description" content="Gadget Ghana online shopping is the best ever online shopping mall in Ghana, phones, laptops , hardwares &amp;accessories , order &amp; enjoy cash on delivery." />
-    <meta name="og:url" content="http://gadgetsghana.com/" />
-    <meta name="og:title" content="Gadegt Ghana Online Shopping" />
-    <meta name="og:image" content="http://www.gadgetsghana.com/images/logo.png') }}" />
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/images/favicon/apple-icon-57x57.png') }}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/images/favicon/apple-icon-60x60.png') }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/images/favicon/apple-icon-72x72.png') }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/images/favicon/apple-icon-76x76.png') }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/images/favicon/apple-icon-114x114.png') }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/images/favicon/apple-icon-120x120.png') }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/images/favicon/apple-icon-144x144.png') }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/images/favicon/apple-icon-152x152.png') }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-icon-180x180.png') }}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/images/favicon/favicon-96x96.png') }}">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png') }}">
-    <meta name="theme-color" content="#ffffff">
-
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
-
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/plugins/OwlCarousel2-2.2.1/owl.carousel.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/plugins/OwlCarousel2-2.2.1/owl.theme.default.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/plugins/OwlCarousel2-2.2.1/animate.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/plugins/slick-1.8.0/slick.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.css') }}">
-    <!-- 
-	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/font-awesome.min.css') }}"> -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/table.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/form-elements.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/common.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/main_styles.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive.css') }}">
-
-    <script src="{{ asset('assets/js/jquery-3.3.1.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/typeahead.min.js') }}"></script>
-    <script src="operator.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>	
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic&amp;subset=latin,latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open%20Sans:300,400,400italic,600,600italic,700,700italic&amp;subset=latin,latin-ext" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/animate.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/font-awesome.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/owl.carousel.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/chosen.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/color-01.css') }}">
     @livewireStyles
 </head>
+<body class="home-page home-01 ">
 
-<body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5G7MB2W" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <!-- <div> -->
-    <header class="header">
-        <div class="header_main">
-            <div class="container">
-                <div class="row">
-                    <!-- Logo -->
-                    <div class="col-lg-8 col-sm-6 col-6 order-1">
-                        <div class="logo_container">
-                            <div class="logo"><a href="">Gadget Ghana</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6 order-lg-3 order-2 text-lg-left text-right ">
-                        <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
-                            <div id="cart_count"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+	<!-- mobile menu -->
+    <div class="mercado-clone-wrap">
+        <div class="mercado-panels-actions-wrap">
+            <a class="mercado-close-btn mercado-close-panels" href="#">x</a>
         </div>
-        <!-- Main Navigation -->
-        <nav class="main_nav">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="main_nav_content d-flex flex-row">
-                            <div class="">
-                                <div class="logo_contain">
-                                    <div class="logo1">
-                                        <a href="/">
-                                            <img src="{{ asset('assets/images/logo.png') }}" alt="Logo">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="main_nav_menu ml-auto menu">
-                                <ul class="standard_dropdown main_nav_dropdown">
-                                    <li><a href="/" class="menu-item">Home</a></li>
-                                    <li><a href="shop" class="menu-item">Shop</a></li>
-                                    <li class="hassubs">
-                                        <a href="#" class="menu-item">categories<i class="fa fa-chevron-down"></i></a>
-                                        <ul>
-                                            <li class="hassubs"><a href="#">LAPTOP <i class="fa fa-chevron-right "></i></a>
-                                                <ul>
-                                                    <li><a href="category?cat=4">BRAND NEW<i class="fa fa-chevron-right"></i></a></li>
-                                                    <li><a href="category?cat=5">PREOWNED [HOME USE]<i class="fa fa-chevron-right"></i></a></li>
-                                                    <li><a href="category?cat=11">CHARGERS<i class="fa fa-chevron-right"></i></a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="hassubs"><a href="#">Smart Phones <i class="fa fa-chevron-right "></i></a>
-                                                <ul>
-                                                    <li><a href="category?cat=8">ANDRIOD<i class="fa fa-chevron-right"></i></a></li>
-                                                    <li><a href="category?cat=9">IOS<i class="fa fa-chevron-right"></i></a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="hassubs">
-                                        <a href="#" class="menu-item">Brands<i class="fa fa-chevron-down"></i></a>
-                                        <ul>
-                                            <li><a href="brands?brd=1">Apple</a></li>
-                                            <li><a href="brands?brd=2">Samsung</a></li>
-                                            <li><a href="brands?brd=5">HP</a></li>
-                                            <li><a href="brands?brd=6">DELL</a></li>
-                                            <li><a href="brands?brd=7">LENOVO</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact" class="menu-item">Contact<i class="fa fa-chevron-down"></i></a></li>
-                                    <li><a href="#" id="search" style="cursor: pointer;">Search</a></li>
-                                    <li class="hassubs">
-                                        <a href="#">Account<i class="fa fa-chevron-down"></i></a>
-                                        <ul>
-                                            <li><a href="signup">Register</a></li>
-                                            <li><a href="customer_login">Login</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <div class="col-md-8 search-form">
-                                    <form action="search.php" method="GET">
-                                        <div class="header_search">
-                                            <div class="header_search_content">
-                                                <div class="header_search_form_container">
-                                                    <form action="#" class="header_search_form clearfix">
-                                                        <input type="search" required="required" class="header_search_input typeahead tt-query " placeholder="Search for products..." name="productsearch" id="productsearch" autocomplete="off" spellcheck="false">
-                                                        <button type="submit" class="header_search_button trans_300"><img src="{{ asset('assets/images/search.png') }}" alt=""></button>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <a href="#" class="close"><i class="fa fa-times"></i></a>
-                            </div>
-                            <!-- Menu Trigger -->
-                            <div class="menu_trigger_container ml-auto">
-                                <div class="menu_trigger d-flex flex-row align-items-center justify-content-end">
-                                    <div class="menu_burger">
-                                        <div class="menu_trigger_text"></div>
-                                        <div class="cat_burger menu_burger_inner"><span></span><span></span><span></span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Menu -->
-
-        <div class="page_menu">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="page_menu_content">
-                            <ul class="page_menu_nav-1" id="nav-accordion">
-                                <div class="page_menu_search">
-                                    <form action="search.php" method="GET">
-                                        <div class="form_search">
-                                            <input type="search" required="required" name="productsearch" id="productsearch1" class="page_menu_search_input typeahead tt-query " autocomplete="off" spellcheck="false" placeholder="Search for products...">
-                                            <input type="submit" id="search_btn1" class="search_btn1" value="search">
-                                        </div>
-                                    </form>
-                                </div>
-                                <li class="page_menu_item-1">
-                                    <a href="">Home</a>
-                                </li>
-                                <li class="page_menu_item-1">
-                                    <a href="shop">Shop</a>
-                                </li>
-                                <li class="page_menu_item-1 sub-menu">
-                                    <a href='javascript:;'>categories<i class="fa fa-angle-down"></i></a>
-                                    <ul class=" page_menu_selection-1 sub">
-                                        <li class="page_menu_item-1 sub-menu">
-                                            <a href="#">LAPTOP<i class="fa fa-angle-down"></i></a>
-                                            <ul class="page_menu_selection-1 sub">
-                                                <li><a href="category?cat=4">BRAND NEW</a></li>
-                                                <li><a href="category?cat=5">PREOWNED [HOME USE]</a></li>
-                                                <li><a href="category?cat=11">CHARGERS</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="page_menu_item-1 sub-menu">
-                                            <a href="#">Smart Phones<i class="fa fa-angle-down"></i></a>
-                                            <ul class="page_menu_selection-1 sub">
-                                                <li><a href="category?cat=8">ANDRIOD</a></li>
-                                                <li><a href="category?cat=9">IOS</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="page_menu_item-1 sub-menu">
-                                    <a href='javascript:;'>Brands<i class="fa fa-angle-down"></i></a>
-                                    <ul class=" page_menu_selection-1 sub">
-                                        <li><a href="brands?brd=1">Apple</a></li>
-                                        <li><a href="brands?brd=2">Samsung</a></li>
-                                        <li><a href="brands?brd=5">HP</a></li>
-                                        <li><a href="brands?brd=6">DELL</a></li>
-                                        <li><a href="brands?brd=7">LENOVO</a></li>
-                                    </ul>
-                                </li>
-                                <li class="page_menu_item-1"><a href="contact">contact</a></li>
-                                <li class="page_menu_item-1 sub-menu">
-                                    <a href="#">Account<i class="fa fa-times fa-chevron-down"></i></a>
-                                    <ul class=" page_menu_selection-1 sub">
-                                        <li><a href="signup">Register</a></li>
-                                        <li><a href="customer_login">Login</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    {{$slot}}
-
-
-    <footer class="footer" style="overflow: hidden;">
-        <div class="slantOp"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="footer_column">
-                        <div class="footer_title">Top Categories</div>
-                        <ul class="footer_list">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <li><a href="category?cat=2">IOS</a></li>
-                                </div>
-                                <div class="col-md-4">
-                                    <li><a href="category?cat=4">BRAND NEW</a></li>
-                                </div>
-                                <div class="col-md-4">
-                                    <li><a href="category?cat=5">PREOWNED [HOME USE]</a></li>
-                                </div>
-                                <div class="col-md-4">
-                                    <li><a href="category?cat=8">ANDRIOD</a></li>
-                                </div>
-                                <div class="col-md-4">
-                                    <li><a href="category?cat=9">IOS</a></li>
-                                </div>
-                                <div class="col-md-4">
-                                    <li><a href="category?cat=11">CHARGERS</a></li>
-                                </div>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="footer_column">
-                        <div class="footer_title">Customer Care</div>
-                        <ul class="footer_list">
-                            <li><a href="/customer_profile/index">My Account</a></li>
-                            <li><a href="track">Order Tracking</a></li>
-                            <!--<li><a href="#">Returns / Exchange</a></li>-->
-                            <!--<li><a href="/support/faq">FAQs</a></li>-->
-                            <!--<li><a href="#">Product Support</a></li>-->
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 footer_col">
-                    <div class="footer_column footer_contact">
-                        <div class="footer_title">Got Questions? Call Us 24/7</div>
-                        <div class="footer_phone" style="color:#c7c7cd;">+233241246690</div>
-                        <div class="footer_phone" style="color:#c7c7cd;">+233241893895</div>
-                        <div class="footer_contact_text">
-                            <p style="color:#c7c7cd;">Koforidua, Ghana</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer_column">
-                        <div class="footer_title">Top Brand</div>
-                        <ul class="footer_list">
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <li><a href="brands?brd=1">Apple</a></li>
-                                </div>
-                                <div class="col-md-2">
-                                    <li><a href="brands?brd=2">Samsung</a></li>
-                                </div>
-                                <div class="col-md-2">
-                                    <li><a href="brands?brd=5">HP</a></li>
-                                </div>
-                                <div class="col-md-2">
-                                    <li><a href="brands?brd=6">DELL</a></li>
-                                </div>
-                                <div class="col-md-2">
-                                    <li><a href="brands?brd=7">LENOVO</a></li>
-                                </div>
-                                <div class="col-md-2">
-                                    <li><a href="brands?brd=8">ASUS</a></li>
-                                </div>
-                                <div class="col-md-2">
-                                    <li><a href="brands?brd=9">ACER</a></li>
-                                </div>
-                                <div class="col-md-2">
-                                    <li><a href="brands?brd=10">MSI</a></li>
-                                </div>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--Copyright --->
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="copyright_container">
-                    <div class="col-lg-6">
-                        <div class="copyright_content text-center" style="text-transform:uppercase;">
-                            Copyright &copy;<script>
-                                document.write(new Date().getFullYear());
-                            </script> All rights reserved.
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="footer_social">
-                            <ul>
-                                <li><a href="https://www.facebook.com/gadgetGHANA/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://twitter.com/gadget_ghana?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="https://www.instagram.com/gadgetghana/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://wa.me/233241246690?text=Hi%20Gadget%20Ghana%2C%20I%20need%20your%20services" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="mercado-panels"></div>
     </div>
-    <!-- loader -->
-    <!-- 	<div id="loading" >
-			<div class="loader">
-	 			<span></span><span></span><span></span><span></span>
+
+	<!--header-->
+	<header id="header" class="header header-style-1">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="topbar-menu-area">
+					<div class="container">
+						<div class="topbar-menu left-menu">
+							<ul>
+								<li class="menu-item" >
+									<a title="Hotline: (+123) 456 789" href="#" ><span class="icon label-before fa fa-mobile"></span>Hotline: (+123) 456 789</a>
+								</li>
+							</ul>
+						</div>
+						<div class="topbar-menu right-menu">
+							<ul>
+								
+								<li class="menu-item lang-menu menu-item-has-children parent">
+									<a title="English" href="#"><span class="img label-before"><img src="{{ asset('assets/images/lang-en.png') }}" alt="lang-en"></span>English<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<ul class="submenu lang" >
+										<li class="menu-item" ><a title="hungary" href="#"><span class="img label-before"><img src="assets/images/lang-hun.png" alt="lang-hun"></span>Hungary</a></li>
+										<li class="menu-item" ><a title="german" href="#"><span class="img label-before"><img src="assets/images/lang-ger.png" alt="lang-ger" ></span>German</a></li>
+										<li class="menu-item" ><a title="french" href="#"><span class="img label-before"><img src="assets/images/lang-fra.png" alt="lang-fre"></span>French</a></li>
+										<li class="menu-item" ><a title="canada" href="#"><span class="img label-before"><img src="assets/images/lang-can.png" alt="lang-can"></span>Canada</a></li>
+									</ul>
+								</li>
+                                <li class="menu-item menu-item-has-children parent" >
+									<a title="Dollar (USD)" href="#">Dollar (USD)<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<ul class="submenu curency" >
+										<li class="menu-item" >
+											<a title="Pound (GBP)" href="#">Pound (GBP)</a>
+										</li>
+										<li class="menu-item" >
+											<a title="Euro (EUR)" href="#">Euro (EUR)</a>
+										</li>
+										<li class="menu-item" >
+											<a title="Dollar (USD)" href="#">Dollar (USD)</a>
+										</li>
+									</ul>
+								</li>
+								
+
+                                @if(Route::has('login'))
+                                    @auth
+                                        @if(Auth::user()->utype === "ADM")
+                                            <!-- Admin -->
+                                            <li class="menu-item menu-item-has-children parent" >
+                                                <a title="My account" href="#">My account ({{Auth::user()->name}})<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                <ul class="submenu curency" >
+                                                    <li class="menu-item" >
+                                                        <a title="Dashboard" href="{{ route('admin.dashboard') }}">Dashboard</a>
+                                                    </li>
+                                                   
+                                                </ul>
+                                            </li>
+                                        @else
+                                            <li class="menu-item menu-item-has-children parent" >
+                                                <a title="My account" href="#">My account ({{Auth::user()->name}})<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                <ul class="submenu curency" >
+                                                    <li class="menu-item" >
+                                                        <a title="Dashboard" href="{{ route('user.dashboard') }}">Dashboard</a>
+                                                    </li>
+                                                   
+                                                </ul>
+                                            </li>
+                                        @endif
+                                    @else
+                                        <li class="menu-item" ><a title="Register or Login" href="{{route('login')}}">Login</a></li>
+                                        <li class="menu-item" ><a title="Register or Login" href="{{route('register')}}">Register</a></li>
+                                    @endif
+
+                                @endif
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="mid-section main-info-area">
+
+						<div class="wrap-logo-top left-section">
+							<a href="index.html" class="link-to-home"><img src="assets/images/logo-top-1.png" alt="mercado"></a>
+						</div>
+
+						<div class="wrap-search center-section">
+							<div class="wrap-search-form">
+								<form action="#" id="form-search-top" name="form-search-top">
+									<input type="text" name="search" value="" placeholder="Search here...">
+									<button form="form-search-top" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+									<div class="wrap-list-cate">
+										<input type="hidden" name="product-cate" value="0" id="product-cate">
+										<a href="#" class="link-control">All Category</a>
+										<ul class="list-cate">
+											<li class="level-0">All Category</li>
+											<li class="level-1">-Electronics</li>
+											<li class="level-2">Batteries & Chargens</li>
+											<li class="level-2">Headphone & Headsets</li>
+											<li class="level-2">Mp3 Player & Acessories</li>
+											<li class="level-1">-Smartphone & Table</li>
+											<li class="level-2">Batteries & Chargens</li>
+											<li class="level-2">Mp3 Player & Headphones</li>
+											<li class="level-2">Table & Accessories</li>
+											<li class="level-1">-Electronics</li>
+											<li class="level-2">Batteries & Chargens</li>
+											<li class="level-2">Headphone & Headsets</li>
+											<li class="level-2">Mp3 Player & Acessories</li>
+											<li class="level-1">-Smartphone & Table</li>
+											<li class="level-2">Batteries & Chargens</li>
+											<li class="level-2">Mp3 Player & Headphones</li>
+											<li class="level-2">Table & Accessories</li>
+										</ul>
+									</div>
+								</form>
+							</div>
+						</div>
+
+						<div class="wrap-icon right-section">
+							<div class="wrap-icon-section wishlist">
+								<a href="#" class="link-direction">
+									<i class="fa fa-heart" aria-hidden="true"></i>
+									<div class="left-info">
+										<span class="index">0 item</span>
+										<span class="title">Wishlist</span>
+									</div>
+								</a>
+							</div>
+							<div class="wrap-icon-section minicart">
+								<a href="#" class="link-direction">
+									<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+									<div class="left-info">
+										<span class="index">4 items</span>
+										<span class="title">CART</span>
+									</div>
+								</a>
+							</div>
+							<div class="wrap-icon-section show-up-after-1024">
+								<a href="#" class="mobile-navigation">
+									<span></span>
+									<span></span>
+									<span></span>
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="nav-section header-sticky">
+					<div class="header-nav-section">
+						<div class="container">
+							<ul class="nav menu-nav clone-main-menu" id="mercado_haead_menu" data-menuname="Sale Info" >
+								<li class="menu-item"><a href="#" class="link-term">Weekly Featured</a><span class="nav-label hot-label">hot</span></li>
+								<li class="menu-item"><a href="#" class="link-term">Hot Sale items</a><span class="nav-label hot-label">hot</span></li>
+								<li class="menu-item"><a href="#" class="link-term">Top new items</a><span class="nav-label hot-label">hot</span></li>
+								<li class="menu-item"><a href="#" class="link-term">Top Selling</a><span class="nav-label hot-label">hot</span></li>
+								<li class="menu-item"><a href="#" class="link-term">Top rated items</a><span class="nav-label hot-label">hot</span></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="primary-nav-section">
+						<div class="container">
+							<ul class="nav primary clone-main-menu" id="mercado_main" data-menuname="Main menu" >
+								<li class="menu-item home-icon">
+									<a href="index.html" class="link-term mercado-item-title"><i class="fa fa-home" aria-hidden="true"></i></a>
+								</li>
+								<li class="menu-item">
+									<a href="about-us.html" class="link-term mercado-item-title">About Us</a>
+								</li>
+								<li class="menu-item">
+									<a href="/shop" class="link-term mercado-item-title">Shop</a>
+								</li>
+								<li class="menu-item">
+									<a href="/cart" class="link-term mercado-item-title">Cart</a>
+								</li>
+								<li class="menu-item">
+									<a href="checkout" Class="link-term mercado-item-title">Checkout</a>
+								</li>
+								<li class="menu-item">
+									<a href="contact-us.html" class="link-term mercado-item-title">Contact Us</a>
+								</li>																	
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div> -->
-    <!-- </div> -->
+		</div>
+	</header>
 
+	{{$slot}}
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<footer id="footer">
+		<div class="wrap-footer-content footer-style-1">
 
-    <script src="{{ asset('assets/plugins/greensock/TimelineMax.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/greensock/TweenMax.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/scrollmagic/ScrollMagic.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/greensock/animation.gsap.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/greensock/ScrollToPlugin.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/OwlCarousel2-2.2.1/owl.carousel.js') }}"></script>
-    <script src="{{ asset('assets/plugins/slick-1.8.0/slick.js') }}"></script>
-    <script src="{{ asset('assets/plugins/easing/easing.js') }}"></script>
-    <script src="{{ asset('assets/plugins/jquery.dcjqaccordion.2.7.js') }}"></script>
-    <script src="{{ asset('assets/plugins/Isotope/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.js') }}"></script>
-    <script src="{{ asset('assets/plugins/parallax-js-master/parallax.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.backstretch.min.js') }}"></script>
-    <script src="{{ asset('assets/js/shop_custom.js') }}"></script>
-    <script src="{{ asset('assets/js/common.js') }}"></script>
-    <script src="{{ asset('assets/js/product_custom.js') }}"></script>
-    <script src="{{ asset('assets/js/custom.js') }}"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('title').html("Gadget Ghana | Home")
-        })
-    </script>
+			<div class="wrap-function-info">
+				<div class="container">
+					<ul>
+						<li class="fc-info-item">
+							<i class="fa fa-truck" aria-hidden="true"></i>
+							<div class="wrap-left-info">
+								<h4 class="fc-name">Free Shipping</h4>
+								<p class="fc-desc">Free On Oder Over $99</p>
+							</div>
+
+						</li>
+						<li class="fc-info-item">
+							<i class="fa fa-recycle" aria-hidden="true"></i>
+							<div class="wrap-left-info">
+								<h4 class="fc-name">Guarantee</h4>
+								<p class="fc-desc">30 Days Money Back</p>
+							</div>
+
+						</li>
+						<li class="fc-info-item">
+							<i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+							<div class="wrap-left-info">
+								<h4 class="fc-name">Safe Payment</h4>
+								<p class="fc-desc">Safe your online payment</p>
+							</div>
+
+						</li>
+						<li class="fc-info-item">
+							<i class="fa fa-life-ring" aria-hidden="true"></i>
+							<div class="wrap-left-info">
+								<h4 class="fc-name">Online Suport</h4>
+								<p class="fc-desc">We Have Support 24/7</p>
+							</div>
+
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--End function info-->
+
+			<div class="main-footer-content">
+
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+							<div class="wrap-footer-item">
+								<h3 class="item-header">Contact Details</h3>
+								<div class="item-content">
+									<div class="wrap-contact-detail">
+										<ul>
+											<li>
+												<i class="fa fa-map-marker" aria-hidden="true"></i>
+												<p class="contact-txt">45 Grand Central Terminal New York,NY 1017 United State USA</p>
+											</li>
+											<li>
+												<i class="fa fa-phone" aria-hidden="true"></i>
+												<p class="contact-txt">(+123) 456 789 - (+123) 666 888</p>
+											</li>
+											<li>
+												<i class="fa fa-envelope" aria-hidden="true"></i>
+												<p class="contact-txt">Contact@yourcompany.com</p>
+											</li>											
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+
+							<div class="wrap-footer-item">
+								<h3 class="item-header">Hot Line</h3>
+								<div class="item-content">
+									<div class="wrap-hotline-footer">
+										<span class="desc">Call Us toll Free</span>
+										<b class="phone-number">(+123) 456 789 - (+123) 666 888</b>
+									</div>
+								</div>
+							</div>
+
+							<div class="wrap-footer-item footer-item-second">
+								<h3 class="item-header">Sign up for newsletter</h3>
+								<div class="item-content">
+									<div class="wrap-newletter-footer">
+										<form action="#" class="frm-newletter" id="frm-newletter">
+											<input type="email" class="input-email" name="email" value="" placeholder="Enter your email address">
+											<button class="btn-submit">Subscribe</button>
+										</form>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12 box-twin-content ">
+							<div class="row">
+								<div class="wrap-footer-item twin-item">
+									<h3 class="item-header">My Account</h3>
+									<div class="item-content">
+										<div class="wrap-vertical-nav">
+											<ul>
+												<li class="menu-item"><a href="#" class="link-term">My Account</a></li>
+												<li class="menu-item"><a href="#" class="link-term">Brands</a></li>
+												<li class="menu-item"><a href="#" class="link-term">Gift Certificates</a></li>
+												<li class="menu-item"><a href="#" class="link-term">Affiliates</a></li>
+												<li class="menu-item"><a href="#" class="link-term">Wish list</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="wrap-footer-item twin-item">
+									<h3 class="item-header">Infomation</h3>
+									<div class="item-content">
+										<div class="wrap-vertical-nav">
+											<ul>
+												<li class="menu-item"><a href="#" class="link-term">Contact Us</a></li>
+												<li class="menu-item"><a href="#" class="link-term">Returns</a></li>
+												<li class="menu-item"><a href="#" class="link-term">Site Map</a></li>
+												<li class="menu-item"><a href="#" class="link-term">Specials</a></li>
+												<li class="menu-item"><a href="#" class="link-term">Order History</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="row">
+
+						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+							<div class="wrap-footer-item">
+								<h3 class="item-header">We Using Safe Payments:</h3>
+								<div class="item-content">
+									<div class="wrap-list-item wrap-gallery">
+										<img src="assets/images/payment.png" style="max-width: 260px;">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+							<div class="wrap-footer-item">
+								<h3 class="item-header">Social network</h3>
+								<div class="item-content">
+									<div class="wrap-list-item social-network">
+										<ul>
+											<li><a href="#" class="link-to-item" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="link-to-item" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="link-to-item" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="link-to-item" title="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="link-to-item" title="vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+							<div class="wrap-footer-item">
+								<h3 class="item-header">Dowload App</h3>
+								<div class="item-content">
+									<div class="wrap-list-item apps-list">
+										<ul>
+											<li><a href="#" class="link-to-item" title="our application on apple store"><figure><img src="assets/images/brands/apple-store.png" alt="apple store" width="128" height="36"></figure></a></li>
+											<li><a href="#" class="link-to-item" title="our application on google play store"><figure><img src="assets/images/brands/google-play-store.png" alt="google play store" width="128" height="36"></figure></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="wrap-back-link">
+					<div class="container">
+						<div class="back-link-box">
+							<h3 class="backlink-title">Quick Links</h3>
+							<div class="back-link-row">
+								<ul class="list-back-link" >
+									<li><span class="row-title">Mobiles:</span></li>
+									<li><a href="#" class="redirect-back-link" title="mobile">Mobiles</a></li>
+									<li><a href="#" class="redirect-back-link" title="yphones">YPhones</a></li>
+									<li><a href="#" class="redirect-back-link" title="Gianee Mobiles GL">Gianee Mobiles GL</a></li>
+									<li><a href="#" class="redirect-back-link" title="Mobiles Karbonn">Mobiles Karbonn</a></li>
+									<li><a href="#" class="redirect-back-link" title="Mobiles Viva">Mobiles Viva</a></li>
+									<li><a href="#" class="redirect-back-link" title="Mobiles Intex">Mobiles Intex</a></li>
+									<li><a href="#" class="redirect-back-link" title="Mobiles Micrumex">Mobiles Micrumex</a></li>
+									<li><a href="#" class="redirect-back-link" title="Mobiles Bsus">Mobiles Bsus</a></li>
+									<li><a href="#" class="redirect-back-link" title="Mobiles Samsyng">Mobiles Samsyng</a></li>
+									<li><a href="#" class="redirect-back-link" title="Mobiles Lenova">Mobiles Lenova</a></li>
+								</ul>
+
+								<ul class="list-back-link" >
+									<li><span class="row-title">Tablets:</span></li>
+									<li><a href="#" class="redirect-back-link" title="Plesc YPads">Plesc YPads</a></li>
+									<li><a href="#" class="redirect-back-link" title="Samsyng Tablets" >Samsyng Tablets</a></li>
+									<li><a href="#" class="redirect-back-link" title="Qindows Tablets" >Qindows Tablets</a></li>
+									<li><a href="#" class="redirect-back-link" title="Calling Tablets" >Calling Tablets</a></li>
+									<li><a href="#" class="redirect-back-link" title="Micrumex Tablets" >Micrumex Tablets</a></li>
+									<li><a href="#" class="redirect-back-link" title="Lenova Tablets Bsus" >Lenova Tablets Bsus</a></li>
+									<li><a href="#" class="redirect-back-link" title="Tablets iBall" >Tablets iBall</a></li>
+									<li><a href="#" class="redirect-back-link" title="Tablets Swipe" >Tablets Swipe</a></li>
+									<li><a href="#" class="redirect-back-link" title="Tablets TVs, Audio" >Tablets TVs, Audio</a></li>
+								</ul>
+
+								<ul class="list-back-link" >
+									<li><span class="row-title">Fashion:</span></li>
+									<li><a href="#" class="redirect-back-link" title="Sarees Silk" >Sarees Silk</a></li>
+									<li><a href="#" class="redirect-back-link" title="sarees Salwar" >sarees Salwar</a></li>
+									<li><a href="#" class="redirect-back-link" title="Suits Lehengas" >Suits Lehengas</a></li>
+									<li><a href="#" class="redirect-back-link" title="Biba Jewellery" >Biba Jewellery</a></li>
+									<li><a href="#" class="redirect-back-link" title="Rings Earrings" >Rings Earrings</a></li>
+									<li><a href="#" class="redirect-back-link" title="Diamond Rings" >Diamond Rings</a></li>
+									<li><a href="#" class="redirect-back-link" title="Loose Diamond Shoes" >Loose Diamond Shoes</a></li>
+									<li><a href="#" class="redirect-back-link" title="BootsMen Watches" >BootsMen Watches</a></li>
+									<li><a href="#" class="redirect-back-link" title="Women Watches" >Women Watches</a></li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="coppy-right-box">
+				<div class="container">
+					<div class="coppy-right-item item-left">
+						<p class="coppy-right-text">Copyright © 2020 Surfside Media. All rights reserved</p>
+					</div>
+					<div class="coppy-right-item item-right">
+						<div class="wrap-nav horizontal-nav">
+							<ul>
+								<li class="menu-item"><a href="about-us.html" class="link-term">About us</a></li>								
+								<li class="menu-item"><a href="privacy-policy.html" class="link-term">Privacy Policy</a></li>
+								<li class="menu-item"><a href="terms-conditions.html" class="link-term">Terms & Conditions</a></li>
+								<li class="menu-item"><a href="return-policy.html" class="link-term">Return Policy</a></li>								
+							</ul>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="{{ asset('assets/js/jquery-1.12.4.minb8ff.js?ver=1.12.4') }}"></script>
+	<script src="{{ asset('assets/js/jquery-ui-1.12.4.minb8ff.js?ver=1.12.4') }}"></script>
+	<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('assets/js/jquery.flexslider.js') }}"></script>
+	<script src="{{ asset('assets/js/chosen.jquery.min.js') }}"></script>
+	<script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+	<script src="{{ asset('assets/js/jquery.countdown.min.js') }}"></script>
+	<script src="{{ asset('assets/js/jquery.sticky.js') }}"></script>
+	<script src="{{ asset('assets/js/functions.js') }}"></script>
     @livewireScripts
 </body>
-
 </html>
+
+
