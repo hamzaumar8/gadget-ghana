@@ -91,9 +91,6 @@
                                 <label for="frm-reg-email">Email Address*</label>
                                 <input type="email" id="frm-reg-email" name="email" placeholder="Email address" required :value="email">
                             </fieldset>
-                            <fieldset class="wrap-title">
-                                <h3 class="form-title">Login Information</h3>
-                            </fieldset>
                             <fieldset class="wrap-input item-width-in-half left-item ">
                                 <label for="frm-reg-pass">Password *</label>
                                 <input type="password" id="frm-reg-pass" name="password" placeholder="Password" required autocomplete="new-password">
