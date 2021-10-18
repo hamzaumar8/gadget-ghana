@@ -21,6 +21,18 @@ class CartComponent extends Component
         Cart::update($rowId, $qty);
     }
 
+    public function destroy($rowId)
+    {
+        Cart::remove($rowId);
+        session()->flash('success_message', 'Item has be removed');
+    }
+
+    public function destroyAll()
+    {
+        Cart::destroy();
+        session()->flash('success_message', 'Item has be removed');
+    }
+
     public function render()
     {
         return view('livewire.cart-component')->layout('layouts.base');
